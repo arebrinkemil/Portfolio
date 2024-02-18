@@ -1,8 +1,12 @@
-# React + Vite
+# React + tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ____    U  ___ u   ____      _____    _____   U  ___ u   _                U  ___ u 
+U|  _"\ u  \/"_ \/U |  _"\ u  |_ " _|  |" ___|   \/"_ \/  |"|        ___     \/"_ \/ 
+\| |_) |/  | | | | \| |_) |/    | |   U| |_  u   | | | |U | | u     |_"_|    | | | | 
+ |  __/.-,_| |_| |  |  _ <     /| |\  \|  _|/.-,_| |_| | \| |/__     | | .-,_| |_| | 
+ |_|    \_)-\___/   |_| \_\   u |_|U   |_|    \_)-\___/   |_____|  U/| |\u\_)-\___/  
+ ||>>_       \\     //   \\_  _// \\_  )(\\,-      \\     //  \\.-,_|___|_,-.  \\    
+(__)__)     (__)   (__)  (__)(__) (__)(__)(_/     (__)   (_")("_)\_)-' '-(_/  (__)   
+                                                                                     
+                                                                                     
+                                                                                     
