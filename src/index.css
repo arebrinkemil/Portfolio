@@ -8,6 +8,7 @@
 
 body {
   background-color: #0b1529;
+  overflow-x: hidden;
 }
 
 #myProgressBar > div {

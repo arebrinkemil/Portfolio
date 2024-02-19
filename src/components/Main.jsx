@@ -5,11 +5,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main">
-      <img
+      {/* <img
         className="w-full h-screen object-cover object-right"
         src="https://images.unsplash.com/photo-1506794778225-cbf6c8df4c5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ></img>
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/10">
+      ></img> */}
+      <div className="w-full h-screen"></div>
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/">
         <div className="max-w-[700px] m-auto h-full w-full flex justify-center flex-col lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-textwhite">
             I'm Emil Årebrink
