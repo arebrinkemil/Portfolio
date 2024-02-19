@@ -18,7 +18,7 @@ const Main = () => {
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-textgray">
             im a
             <TypeAnimation
-              sequence={["Developer", 1000, "Coder", 1000]}
+              sequence={["Developer", 1000, "Helt kodad", 1000]}
               wrapper="div"
               speed={50}
               style={{ fontSize: "1em", paddingLeft: "5px" }}

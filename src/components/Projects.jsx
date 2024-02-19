@@ -4,6 +4,7 @@ import hus from "../assets/hus.jpg";
 import bro from "../assets/bro.jpg";
 import mars from "../assets/mars.jpg";
 import boat from "../assets/boat.jpg";
+import chat from "../assets/reactchat.png";
 
 const Projects = () => {
   return (
@@ -18,10 +19,34 @@ const Projects = () => {
         commodi.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={hus} title="projekt 1" />
-        <ProjectItem img={bro} title="projekt 2" />
-        <ProjectItem img={mars} title="projekt 3" />
-        <ProjectItem img={boat} title="projekt 4" />
+        <ProjectItem
+          img={chat}
+          title="react chat"
+          description={"A simple chat application made with react and firebase"}
+          hasGithub={true}
+          isHosted={true}
+          underDevelopment={false}
+          url={"https://react-chat-lac.vercel.app/"}
+          github={"https://github.com/arebrinkemil/reactChat"}
+        />
+        <ProjectItem
+          img={chat}
+          title="react chat"
+          description={"A simple chat application made with react and firebase"}
+          url={"https://arebrink.se/yrgopelago/public/index.php"}
+        />
+        <ProjectItem
+          img={chat}
+          title="react chat"
+          description={"A simple chat application made with react and firebase"}
+          url={"https://react-chat-lac.vercel.app/"}
+        />
+        <ProjectItem
+          img={chat}
+          title="react chat"
+          description={"A simple chat application made with react and firebase"}
+          url={"https://react-chat-lac.vercel.app/"}
+        />
       </div>
     </div>
   );
