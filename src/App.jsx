@@ -10,7 +10,7 @@ import ContactForm from "./components/ContactForm";
 function App() {
   return (
     <>
-      <Background /> {/* Add the Background component */}
+      <Background /> {}
       <div className="bg-darkmode">
         <div id="myProgressBar">
           <ProgressBar />
@@ -18,7 +18,9 @@ function App() {
         <div id="content">
           <Sidenav />
           <Main />
+
           <Work />
+
           <Projects />
           <ContactForm />
         </div>

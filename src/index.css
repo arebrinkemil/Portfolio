@@ -31,3 +31,25 @@ body {
   z-index: 10;
   width: 100vw;
 }
+
+.swagbox {
+  width: 400vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1vh;
+  background: yellow;
+}
+
+.lastContainer {
+  display: flex;
+  height: 1vh;
+  background: yellow;
+}

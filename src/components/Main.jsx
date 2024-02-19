@@ -18,11 +18,22 @@ const Main = () => {
               I'm Emil Årebrink
             </h1>
             <h2 className="flex sm:text-3xl text-2xl pt-4 text-textgray">
-              im a
+              I'm
               <TypeAnimation
-                sequence={["Developer", 1000, "Helt kodad", 1000]}
+                sequence={[
+                  "a Developer",
+                  1000,
+                  "Helt kodad!",
+                  1000,
+                  "a Student",
+                  1500,
+                  "a Gamer",
+                  1500,
+                  "a Coder",
+                  1500,
+                ]}
                 wrapper="div"
-                speed={50}
+                speed={20}
                 style={{ fontSize: "1em", paddingLeft: "5px" }}
                 cursor={true}
                 repeat={Infinity}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   AiOutlineMenu,
   AiOutlineHome,
@@ -7,15 +7,22 @@ import {
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
+import { gsap } from "gsap";
 
 export const Sidenav = () => {
   const [nav, setNav] = useState(false);
+  const sideNavRef = useRef(null);
   const handleNav = () => {
     setNav(!nav);
   };
 
   useEffect(() => {
     document.body.style.overflow = nav ? "hidden" : "auto";
+    gsap.fromTo(
+      sideNavRef.current,
+      { x: "-100%" },
+      { x: "0%", duration: 2, ease: "power3.out" }
+    );
   }, [nav]);
 
   return (
@@ -72,7 +79,7 @@ export const Sidenav = () => {
       ) : (
         ""
       )}
-      <div className="md:block hidden fixed top-[25%] z-20">
+      <div className="md:block hidden fixed top-[25%] z-20" ref={sideNavRef}>
         <div className="flex flex-col">
           <a
             href="#main"
