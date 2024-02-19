@@ -28,8 +28,8 @@ function ContactForm() {
   return (
     <div id="contact" className="flex items-center min-h-screen">
       <div className="container mx-auto">
-        <div className="max-w-[80vw] mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
-          <div id="form-wrapper">
+        <div className="max-w-[80vw] mx-auto my-10 p-5 rounded-md shadow-sm flex flex-col align-item-center lg:flex-row lg:items-center gap-8">
+          <div id="form-wrapper" className="flex-initial basis-1/2 bg-white">
             <div className="text-center">
               <h1 className="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
                 Contact me
@@ -135,7 +135,7 @@ function ContactForm() {
               </form>
             </div>
           </div>
-          <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+          <div className=" mx-auto bg-gray-200 rounded-xl shadow-md overflow-hidden flex-initial basis-1/2">
             <div className="md:flex">
               <div className="md:shrink-0">
                 <img
