@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import ProgressBar from "react-scroll-progress-bar";
 import Background from "./components/Background";
 import ContactForm from "./components/ContactForm";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Main />
 
           <Work />
-
+          <Skills />
           <Projects />
           <ContactForm />
         </div>
