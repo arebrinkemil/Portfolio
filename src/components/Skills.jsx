@@ -29,9 +29,11 @@ class SkillBars extends React.Component {
     const { hue, saturation, skills } = this.props;
 
     return (
-      <div className="w-full flex lg:flex-row flex-col justify-center items-center lg:items-normal px-8">
+      <div
+        id="skills"
+        className="w-full h-screen flex lg:flex-row flex-col justify-center items-center lg:items-normal px-8"
+      >
         <div
-          id="skills"
           className={`container px-5 ${
             collapsed ? "w-0" : "lg:w-[40vw] w-full"
           }`}

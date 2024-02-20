@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sidenav } from "./components/Sidenav";
 import Main from "./components/Main";
-import Work from "./components/Work";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import ProgressBar from "react-scroll-progress-bar";
 import Background from "./components/Background";
@@ -20,7 +20,7 @@ function App() {
           <Sidenav />
           <Main />
 
-          <Work />
+          <About />
           <Skills />
           <Projects />
           <ContactForm />

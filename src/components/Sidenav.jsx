@@ -64,7 +64,7 @@ export const Sidenav = () => {
   };
 
   const handleScroll = (sectionId) => {
-    gsap.to(window, { duration: 1, scrollTo: { y: sectionId, offsetY: 70 } });
+    gsap.to(window, { duration: 1, scrollTo: { y: sectionId, offsetY: 0 } });
   };
 
   return (
@@ -90,12 +90,12 @@ export const Sidenav = () => {
           <a
             onClick={() => {
               handleNav();
-              handleScroll("#work");
+              handleScroll("#about");
             }}
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-darkmode shadow-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <GrProjects size={20} color="white" />
-            <span className="pl-4 text-textwhite ">Work</span>
+            <span className="pl-4 text-textwhite ">about</span>
           </a>
 
           <a
@@ -157,7 +157,7 @@ export const Sidenav = () => {
             ref={addToRefs}
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={() => handleMouseLeave(1)}
-            onClick={() => handleScroll("#work")}
+            onClick={() => handleScroll("#about")}
             className="rounded-lg bg-darkmode shadow-lg drop-shadow-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <GrProjects size={20} color="white" />
