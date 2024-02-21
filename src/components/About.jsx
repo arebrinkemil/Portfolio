@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import bridge from "../assets/walpapabron.jpg";
+import house from "../assets/houses.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,31 +40,37 @@ const About = () => {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            We didn't reinvent the wheel
+            About Me!
           </h2>
           <p className="mb-4">
-            We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick, but big enough to
-            deliver the scope you want at the pace you need. Small enough to be
-            simple and quick, but big enough to deliver the scope you want at
-            the pace you need.
+            Hey there! I'm Emil Årebrink, a 22-year-old web developer currently
+            studying at Yrgo in Gothenburg. Originally from Stenungsund, I'm
+            passionate about coding and creating digital experiences that
+            connect with users. My interest in web development stems from a love
+            for problem-solving and the opportunity to bring ideas to life
+            online. Whether it's building websites or diving into web
+            applications, I enjoy the process of turning concepts into
+            functional, visually appealing projects. Outside of coding, I enjoy
+            photography, gaming, and music. Photography allows me to capture
+            moments, while gaming provides a creative outlet and music sets the
+            mood for my coding sessions.
           </p>
           <p>
-            We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick.
+            Join me on my journey as I explore the world of web development and
+            continue to learn and grow in this dynamic field.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-10 lg:h-[70vh] ">
           <img
             ref={imageRef1}
             className="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+            src={bridge}
             alt="office content 1"
           />
           <img
             ref={imageRef2}
             className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            src={house}
             alt="office content 2"
           />
         </div>
