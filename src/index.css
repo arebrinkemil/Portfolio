@@ -45,11 +45,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 1vh;
-  background: yellow;
 }
 
 .lastContainer {
   display: flex;
   height: 1vh;
-  background: yellow;
 }

@@ -17,7 +17,8 @@ const About = () => {
         trigger: imageRef1.current,
         start: "top center",
         end: "bottom center",
-        scrub: true,
+        scrub: 1,
+        ease: "power1.out",
       },
     });
 
@@ -27,18 +28,16 @@ const About = () => {
         trigger: imageRef2.current,
         start: "top center",
         end: "bottom center",
-        scrub: true,
+        scrub: 1,
+        ease: "power1.out",
       },
     });
   }, []);
 
   return (
-    <section
-      className="bg-white dark:bg-gray-900 h-screen flex justify-center"
-      id="about"
-    >
-      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+    <section className="h-screen flex justify-center" id="about">
+      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 overflow-y-hidden">
+        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400 overflow-y-hidden">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             About Me!
           </h2>
@@ -60,7 +59,7 @@ const About = () => {
             continue to learn and grow in this dynamic field.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-10 lg:h-[70vh] ">
+        <div className="grid grid-cols-2 gap-4 mt-10 lg:h-[70vh] overflow-y-hidden ">
           <img
             ref={imageRef1}
             className="w-full rounded-lg"

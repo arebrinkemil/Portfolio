@@ -67,12 +67,12 @@ export default function Scene() {
             </div>
           </div>
         </div>
-        <div className="panel w-screen lg:w-[50vw] h-screen">
+        <div className="panel w-screen lg:w-[50vw] h-screen ">
           <div
             id="projects"
-            className=" h-full w-full flex items-center justify-center"
+            className=" h-full w-full flex items-center justify-center  "
           >
-            <div className="grid gap-12 gap-6 w-[80%]">
+            <div className="grid gap-12 gap-6 w-[80%] ">
               <ProjectItem
                 img={chat}
                 title="react chat"

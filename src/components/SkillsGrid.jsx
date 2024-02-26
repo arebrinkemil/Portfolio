@@ -11,7 +11,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 function IconGrid() {
   return (
-    <div className="grid grid-cols-3 gap-4 w-full lg:w-[40vw] h-full p-4 max-h-[80vh]">
+    <div className="grid grid-cols-3 gap-4 w-full lg:w-[40vw]  p-4 max-h-[80vh]">
       <div className="aspect-w-1 aspect-h-1 flex items-center justify-center bg-white/50 rounded-lg hover:bg-white/90 hover:scale-105  transition-all duration-300">
         <IoLogoJavascript size="100%" />
       </div>
